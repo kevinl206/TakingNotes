@@ -1,7 +1,8 @@
 // Dependencies
 const util = require('util');
 const fs = require('fs');
-const uuidV1 = require('uuid/v1');
+// const uuidV1 = require('uuid/v1');
+const { v1: uuidv1 } = require('uuid');
 
 
 const readNote = util.promisify(fs.readFile);
@@ -34,7 +35,7 @@ class Save {
             throw new Error('Both title and text can not be blank');
         }
 
-        const newNote = { title, text, id: uuidV1() };
+        const newNote = { title, text, id: uuidv1() };
 
         // grab Notes, add the new note, update notes
         return this.retrieveNotes()
