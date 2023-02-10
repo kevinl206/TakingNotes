@@ -1,8 +1,8 @@
 # Taking Notes! [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Deployed Application (Heroku) :
+### Deployed Application (Heroku) : https://secure-ocean-96489.herokuapp.com/ 
 
-### Github : github.com/kevinl206
+### Github : https://github.com/kevinl206/TakingNotes.git
 
 ## Table of Contents
 - [Description](#description)
